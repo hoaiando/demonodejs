@@ -7,6 +7,7 @@ router.get("/", (req, res) => {
   res.send("This is Home");
 });
 
+
 router.post("/v1/user/", userController.getInforUser);
 
 module.exports = router;
