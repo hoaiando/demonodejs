@@ -4,7 +4,7 @@ exports.getInforUser = async (req, res, next) => {
   console.log(account);
   let data = {
     firstname: "Tuan",
-    age: 32,
+    age: 22,
   };
   return res.status(200).json({ status: true, message: "OK", data: data });
 };
